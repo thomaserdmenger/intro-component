@@ -1,0 +1,24 @@
+:root {
+  --color-red: hsl(0, 100%, 74%);
+  --color-green: hsl(154, 59%, 51%);
+  --color-blue: hsl(248, 32%, 49%);
+  --color-blue-dark: hsl(249, 10%, 26%);
+  --color-blue-grayish: hsl(246, 25%, 77%);
+  --breakpoint-mobile: 375px;
+  --breakpoint-desktop: 1440px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+body {
+  min-height: 100dvh;
+}
