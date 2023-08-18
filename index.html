@@ -21,7 +21,7 @@
   </head>
   <body>
     <main>
-      <section>
+      <section class="container">
         <div class="header">
           <h1>Learn to code by watching others</h1>
           <p>
@@ -31,7 +31,9 @@
           </p>
         </div>
         <div class="main">
-          <div class="offer">Try it free 7 days then $20/mo. thereafter</div>
+          <div class="offer">
+            <span>Try it free 7 days then</span> $20/mo. thereafter
+          </div>
           <form class="form" action="#">
             <input
               class="form-input-firstname"
@@ -53,14 +55,16 @@
               type="password"
               placeholder="Password"
             />
-            <button type="submit">Claim your free trial</button>
+            <button class="form-submit-button" type="submit">
+              Claim your free trial
+            </button>
+            <div class="terms">
+              <p class="terms-text">
+                By clicking the button, you are agreeing to our
+                <span class="terms-red">Terms and Services</span>
+              </p>
+            </div>
           </form>
-          <div class="terms">
-            <p class="terms-text">
-              By clicking the button, you are agreeing to our
-              <span class="terms-red">Terms and Services</span>
-            </p>
-          </div>
         </div>
       </section>
     </main>
