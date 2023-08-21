@@ -101,11 +101,23 @@ body {
   position: absolute;
   right: 27px;
   top: 16px;
+  display: none;
 }
 
 .input-error-message {
   align-self: flex-end;
   margin-top: 6px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.form .form-input-email--mod::placeholder {
+  color: var(--color-red);
+  font-size: 0, 875rem;
+  font-weight: 600;
 }
 
 .form input {
