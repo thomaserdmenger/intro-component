@@ -33,12 +33,6 @@ body {
   margin-bottom: 4.25rem;
 }
 
-@media only screen and (min-width: 375px) {
-  .container {
-    flex-direction: row;
-  }
-}
-
 .header {
   display: flex;
   flex-direction: column;
@@ -170,4 +164,40 @@ body {
 .terms-red {
   color: var(--color-red);
   font-weight: 700;
+}
+
+@media only screen and (min-width: 1000px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    padding: 0 165px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .header {
+    max-width: 50%;
+    margin-right: 45px;
+    align-items: flex-start;
+  }
+
+  .header h1 {
+    font-size: 50px;
+    line-height: 55px;
+    letter-spacing: -0.521px;
+    text-align: left;
+  }
+
+  .header p {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .main {
+    max-width: 50%;
+  }
 }
